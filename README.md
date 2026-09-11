@@ -1,60 +1,171 @@
-# Travel-Vista
+# ✈️ TravelVista – Travel Destination Website
 
+TravelVista is a modern and responsive travel destination website built using Angular. It helps users explore popular destinations, view travel packages, browse travel images, and contact the travel service.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.1.8.
+## 🌍 Project Overview
 
-## Development server
+TravelVista provides a simple and attractive platform for users to discover beautiful destinations and explore different travel packages.
 
-To start a local development server, run:
+The project includes multiple pages with Angular routing and a clean light-purple travel-themed UI.
+
+## ✨ Features
+
+* 🏠 Home Page
+* 🌍 Popular Destinations
+* 🎒 Travel Packages
+* 📸 Travel Gallery
+* ℹ️ About TravelVista
+* 📩 Contact Us
+* 🔐 Login Page
+* 📝 Signup Page
+* 🔗 Angular Routing
+* 📱 Responsive Design
+* 💜 Modern Light-Purple UI
+* 🖼️ Destination and travel images
+* 🔙 Easy navigation between pages
+
+## 🛠️ Technologies Used
+
+* Angular
+* TypeScript
+* HTML5
+* CSS3
+* Angular Router
+* Responsive Web Design
+
+## 📂 Project Structure
+
+```text
+travel-destination/
+│
+├── src/
+│   └── app/
+│       ├── home/
+│       ├── destinations/
+│       ├── packages/
+│       ├── gallery/
+│       ├── about/
+│       ├── contact/
+│       ├── login/
+│       └── signup/
+│
+├── public/
+├── angular.json
+├── package.json
+└── README.md
+```
+
+## 📄 Pages
+
+### 🏠 Home
+
+The home page introduces TravelVista and provides quick navigation to destinations and travel packages.
+
+### 🌍 Destinations
+
+Displays popular destinations such as:
+
+* South Korea
+* Paris
+* Bali
+* Maldives
+
+### 🎒 Packages
+
+Displays travel packages with:
+
+* Destination
+* Package name
+* Duration
+* Number of people
+* Price
+* Book Now button
+
+### 📸 Gallery
+
+A collection of travel destination images with hover effects.
+
+### ℹ️ About
+
+Provides information about TravelVista, its features, and travel statistics.
+
+### 📩 Contact
+
+Contains contact information and a travel enquiry form.
+
+### 🔐 Login
+
+A user login interface with email and password fields.
+
+### 📝 Signup
+
+A registration interface where users can enter their name, email, and password.
+
+## 🚀 How to Run the Project
+
+### 1. Clone the repository
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+### 2. Open the project
+
+```bash
+cd travel-destination
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Run the Angular application
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### 5. Open in browser
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```text
+http://localhost:4200/
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🧭 Available Routes
 
-```bash
-ng generate --help
-```
+| Page         | Route           |
+| ------------ | --------------- |
+| Home         | `/`             |
+| Destinations | `/destinations` |
+| Packages     | `/packages`     |
+| Gallery      | `/gallery`      |
+| About        | `/about`        |
+| Contact      | `/contact`      |
+| Login        | `/login`        |
+| Signup       | `/signup`       |
 
-## Building
+## 🎯 Future Enhancements
 
-To build the project run:
+* User authentication
+* MongoDB database integration
+* Online booking system
+* Payment integration
+* User profile
+* Wishlist functionality
+* Search and filter options
+* Admin dashboard
+* Real-time travel package management
 
-```bash
-ng build
-```
+## 👩‍💻 Author
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+**Akshaya**
 
-## Running unit tests
+Frontend Developer | Angular | JavaScript | HTML | CSS
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+## 📌 Project Status
 
-```bash
-ng test
-```
+🚧 Currently under development.
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+More features and backend functionality will be added in future versions.
