@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:host {
+  display: block;
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar {
+  height: 75px;
+  padding: 0 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+}
+
+.logo {
+  font-size: 27px;
+  font-weight: bold;
+  color: #4c1d95;
+}
+
+.logo span {
+  color: #8b5cf6;
+}
+
+.nav-links {
+  display: flex;
+  gap: 35px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+}
+
+.nav-links a:hover {
+  color: #7c3aed;
+}
+
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.login-btn {
+  padding: 10px 20px;
+
+  border: 1px solid #7c3aed;
+  border-radius: 25px;
+
+  background: white;
+  color: #7c3aed;
+
+  font-size: 14px;
+  font-weight: bold;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background: #7c3aed;
+  color: white;
+}
+
+.explore-btn {
+  padding: 11px 22px;
+  border: none;
+  border-radius: 25px;
+  background: #7c3aed;
+  color: white;
+  cursor: pointer;
+}
+
+
+/* HERO */
+
+.hero {
+  min-height: calc(100vh - 75px);
+
+  background:
+    linear-gradient(
+      rgba(35, 20, 65, 0.55),
+      rgba(35, 20, 65, 0.55)
+    ),
+    url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e")
+    center/cover;
+
+  display: flex;
+  align-items: center;
+
+  padding-left: 10%;
+}
+
+.hero-content {
+  max-width: 650px;
+  color: white;
+}
+
+.small-title {
+  font-size: 14px;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 60px;
+  line-height: 1.1;
+  margin-bottom: 25px;
+}
+
+.hero h1 span {
+  color: #d8b4fe;
+}
+
+.description {
+  max-width: 550px;
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.primary-btn,
+.secondary-btn {
+  padding: 14px 25px;
+  border-radius: 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.primary-btn {
+  border: none;
+  background: #8b5cf6;
+  color: white;
+}
+
+.secondary-btn {
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+}
+
+.primary-btn:hover {
+  background: #6d28d9;
+}
+
+.secondary-btn:hover {
+  background: white;
+  color: #4c1d95;
+}
