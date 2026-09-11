@@ -1,0 +1,154 @@
+/* MAIN SECTION */
+
+.destinations {
+  min-height: 100vh;
+  padding: 70px 8%;
+  background: #faf7ff;
+  font-family: Arial, sans-serif;
+}
+
+
+/* HEADING */
+
+.heading {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.heading p {
+  color: #8b5cf6;
+  letter-spacing: 3px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.heading h1 {
+  color: #35105c;
+  font-size: 40px;
+  margin: 12px 0;
+}
+
+.heading span {
+  color: #777;
+  font-size: 16px;
+}
+
+
+/* DESTINATION CARDS */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+}
+
+
+/* CARD */
+
+.card {
+  background: white;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 15px 30px rgba(124, 58, 237, 0.15);
+}
+
+
+/* IMAGE */
+
+.card img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  display: block;
+}
+
+
+/* CARD CONTENT */
+
+.content {
+  padding: 20px;
+}
+
+.content h2 {
+  color: #4c1d95;
+  margin: 0 0 8px;
+  font-size: 23px;
+}
+
+.content p {
+  color: #777;
+  margin: 0;
+  font-size: 14px;
+}
+
+
+/* EXPLORE BUTTON */
+
+.content button {
+  margin-top: 14px;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 25px;
+  background: #7c3aed;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.content button:hover {
+  background: #5b21b6;
+  transform: translateY(-2px);
+}
+
+
+/* BACK HOME */
+
+.back-container {
+  text-align: center;
+  margin-top: 45px;
+}
+
+.back-home {
+  display: inline-block;
+  padding: 12px 25px;
+  border-radius: 25px;
+  background: #7c3aed;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.back-home:hover {
+  background: #5b21b6;
+  transform: translateY(-2px);
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+  .destinations {
+    padding: 50px 5%;
+  }
+
+  .heading h1 {
+    font-size: 32px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .card img {
+    height: 190px;
+  }
+}

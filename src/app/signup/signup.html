@@ -1,0 +1,106 @@
+```html
+<section class="signup-page">
+
+  <div class="signup-card">
+
+    <!-- LOGO -->
+
+    <div class="logo">
+      Travel<span>Vista</span>
+    </div>
+
+    <p class="welcome">
+      Create your account and start your journey.
+    </p>
+
+
+    <!-- SIGNUP FORM -->
+
+    <form (ngSubmit)="signup()">
+
+      <div class="input-group">
+
+        <label>Full Name</label>
+
+        <input
+          type="text"
+          placeholder="Enter your full name"
+          required>
+
+      </div>
+
+
+      <div class="input-group">
+
+        <label>Email Address</label>
+
+        <input
+          type="email"
+          placeholder="Enter your email"
+          required>
+
+      </div>
+
+
+      <div class="input-group">
+
+        <label>Password</label>
+
+        <input
+          type="password"
+          placeholder="Create a password"
+          required>
+
+      </div>
+
+
+      <div class="input-group">
+
+        <label>Confirm Password</label>
+
+        <input
+          type="password"
+          placeholder="Confirm your password"
+          required>
+
+      </div>
+
+
+      <button
+        type="submit"
+        class="signup-btn">
+
+        Create Account
+
+      </button>
+
+    </form>
+
+
+    <!-- LOGIN -->
+
+    <p class="login-text">
+
+      Already have an account?
+
+      <a routerLink="/login">
+        Login
+      </a>
+
+    </p>
+
+
+    <!-- BACK HOME -->
+
+    <a
+      routerLink="/"
+      class="back-home">
+
+      ← Back to Home
+
+    </a>
+
+  </div>
+
+</section>
+```
